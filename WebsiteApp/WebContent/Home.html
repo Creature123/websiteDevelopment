@@ -13,7 +13,7 @@
     
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  <script src="http://maps.google.com/maps/api/js??libraries=places&key=AIzaSyC5VgUUiSLu437tPh9tKvCkN1b30H0DZ7g"></script>
 
 
 
@@ -67,7 +67,7 @@ function validateForm() {
   #section42 {padding-top:50px;height:600px;color: #fff; background-color: #009688;}
   #ContactUs {padding-top:50px;height:650px;color: #fff; background-color: #e0301e;}
   </style>
-  /* hover tab color */
+  
   <style>
   .nav .navbar-nav>li>a{
   border-color: #be9b7b;
@@ -154,7 +154,7 @@ border-color: #536872;
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand img-responsive"" href="#"><img src="C:\Users\souravd019\workspace\j2EECodes\WebsiteApp\WebContent\WEB-INF\image\websitelogo.png"></a>
+      <a class="navbar-brand img-responsive" href="#"><img src="C:\Users\souravd019\workspace\j2EECodes\WebsiteApp\WebContent\WEB-INF\image\websitelogo.png"></a>
     </div>
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
@@ -171,8 +171,8 @@ border-color: #536872;
           <li><a href="#ContactUs">Contact Us</a></li>
         </ul>
         <ul class="nav navbar-nav" style="float:right">
-          <li style="float:right"><a href="#myModal" align="right" data-toggle="modal">Sign in</a></li>
-          <li style="float:right"><a href="#loginmodal" align="right" data-toggle="modal">Log in</a></li>
+          <li style="float:right"><a href="#myModal" data-toggle="modal">Register</a></li>
+          <li style="float:right"><a href="#loginmodal" data-toggle="modal">Log in</a></li>
          </ul>   
       </div>
     </div>
@@ -224,7 +224,7 @@ border-color: #536872;
         <div id="map-container" class="col-md-8"></div>
       </div><!-- /map-outer -->
       <p style="float:center">
-        <a href="#myModal" class="btn btn-success btn-lg" align="float:left" data-toggle="modal">
+        <a href="#myModal" class="btn btn-success btn-lg"  data-toggle="modal">
           <span class="glyphicon glyphicon-send"></span> Have Query!
         </a>
       </p>
@@ -327,5 +327,6 @@ $(document).ready(function(){
         </div><!-- End of Modal content -->
         </div><!-- End of Modal dialog -->
     </div><!-- End of Modal -->
+    </div>
 </body>
 </html>
